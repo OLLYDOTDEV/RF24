@@ -10,6 +10,7 @@
 # ------------
 # use make all and make install to install the library 
 #
+# stubs-hard.h is missing see https://github.com/nRF24/RF24/issues/614 for fix. 
 
 CONFIG_FILE=Makefile.inc
 REMOTE_ERROR="[ERROR] Remote machine not configured. Run configure with respective arguments."
